@@ -1,0 +1,25 @@
+/*styles for narrow page*/
+@media screen and (min-width: 1440px) {
+    header > .row {
+        /*max-width: 60%;*/
+    }
+    main > .row {
+        max-width: 65%;
+        border-left: 1px solid #f7f7f7;
+        border-right: 1px solid #f7f7f7;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .b-footer > .row {
+        /*max-width: 60%;*/
+    }
+    .date .to {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .add-tour {
+        margin-top: 0 !important;
+    }
+}
