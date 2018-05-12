@@ -1,0 +1,1255 @@
+<? include( "/home/tours206/www/register/copysource/web_config.php" ); ?>
+<? include( "/home/tours206/www/register/copysource/functions_website.php" ); ?>
+<? include( "/home/tours206/www/register/components/functions.php" ); ?>
+<? $TOUR_ID = "JC052019"; $TOUR_INFO = get_tour_info_responsive($TOUR_ID); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <? include("/home/tours206/www/register/components/static_head_data.htm");?>
+    <title><? echo $TOUR_INFO['TourName']; ?> with 206 Tours - Catholic Pilgrimages</title>
+    <meta property="og:image" content=""/> <!--TODO: Add to the DB and admin-->
+    <meta name="Description" content=""> <!--TODO: Add to the DB and admin-->
+    <meta name="KeyWords" content="">
+</head>
+<body>
+<div class="wrapper">
+    <!--Promo start here-->
+    <? include("/home/tours206/www/register/components/top_promo.htm");?>
+    <!--Promo ends here-->
+
+    <!--Header start here-->
+    <? include("/home/tours206/www/register/components/header.htm");?>
+    <!--Header end here-->
+
+    <main id="main">
+        <!--Aside links (contact, brochures, live, chat) starts here-->
+        <? include("/home/tours206/www/register/components/aside_links.htm");?>
+        <!--Aside links (contact, brochures, live, chat) ends here-->
+
+        <div class="row">
+            <div class="small-12 large-9 columns">
+                <div class="page-title clearfix">
+                    <? // get_static_block('back_arrow',,true); ?>
+
+                    <div class="float-left centered">
+                        <div><span class="days"><? echo $TOUR_INFO['TourNumDays']; ?><small>Days</small></span></div>
+
+
+                        <div class="page-title">
+                            <h3 style="font-size: 40px; margin-bottom:10px;">Holy Land Pilgrimage</h3>
+                            <h4 style="font-size: 30px;">In the Footsteps of Jesus</h4>
+                            <h4 style="font-size: 20px; margin-bottom:10px;">May 5 - 15, 2019</h4>
+                            <h4 style="margin-bottom:10px; font-size: 18px;"><strong style="font-size: 18px; color: #000fff;">*</strong>Optional Pre Tour to Jordan&nbsp;&nbsp;-&nbsp;&nbsp;May 2 - 6, 2019</h4>
+                            <h6 style="margin-top:10px;"><? echo $TOUR_INFO['TourNumber']; ?></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 columns hide-for-large noprint">
+
+                <!--Slider 1 "Top slider for mobile"start here-->
+                <div class="tour-details-banner">
+                    <div class="top-slider">
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/holyland-pilgrimage-church-of-holy-sepulchre-jerusalem-israel1.jpg" title="Holy Sepulchre Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/holy-land-pilgrimage-church-of-all-nations-jerusalem-israel1.jpg" title="Church of All Nations Catholic Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage1.jpg" title="Church of Nativity Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mount-of-beatitudes-galilee-israel1.jpg" title="Mount of Beatitudes Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pilgrimage-group-baptisim-sea-of-galilee-holyland1.jpg" title="Galilee Baptisim Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/israel-pilgrimage-rock-of-agony-church-of-nations-jerusalem1.jpg" title="Rock of Agony, Church of All Nations Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pope-francis-holyland-western-wall-jerusalem1.jpg" title="Pope Francis Holy Land Western Wall"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/western-wall-wailing-wall-jerusalem-holyland-pilgrimage1.jpg" title="Monastery of St. George, Israel"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/catholic-holyland-pilgrimage-the-dead-sea-israel1.jpg" title="The Dead Sea, Israel Pilgrimage"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-holy-sepulchre-jerusalem-pilgrimage1.jpg" title="Church of the Holy Sepulchre, Jerusalem"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-holy-sepulchre-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jordan-river-baptisim-pilgrimage-holy-land2.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/peter-noster-mount-of-olives-jerusalem-tour1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage2.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jericho-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mt-tabor-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/tabgha-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/galilee-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/food-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jesus-tomb-jerusalem-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pilgrims-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/206-tours-bus-jerusalem-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/sea-of-galilee-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/basilica-of-annunciation-nazareth-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mass-daily-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/cana-wedding-church-holy-land-pilgrimage2.jpg" title="Holy Land Pilgrimage Group"></div>
+                        <div>
+                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/basilica-of-annunciation-nazareth-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+
+                    </div>
+                </div>
+                <!--Slider 1 "top slider for mobile"end here-->
+
+                <!-- Top naviagtion Desctop start -->
+                <div class="tour-details-navigation noprint">
+                    <a href="#" data-content="third" class="theme-btn silver full-w">Dates & Prices</a>
+                    <a href="#" data-content="first" class="theme-btn silver full-w">What is Included</a>
+                    <a href="#" data-content="second" class="theme-btn silver full-w">Itinerary</a>
+                    <a href="#" data-content="fourth" class="theme-btn silver half-w">Overview</a>
+                    <a href="#" data-content="fives" class="theme-btn silver half-w">Options</a>
+                </div>
+                <!-- Top naviagtion Desctop end -->
+            </div>
+            <div data-accordion data-allow-all-closed="true" data-multi-expand="true" class="accordion small-12 columns">
+                <section data-accordion-item class="accordion-item is-active show-for-large noprint"><a href="#" class="accordion-title hide-for-large noprint">
+                    <h4>slider</h4></a>
+                    <div data-tab-content class="accordion-content">
+                        <div class="row" style="margin-bottom:-50px;">
+                            <div class="small-12 large-9 large-order-0 columns">
+                                <h4 style="font-size: 20px; color:#cc9966; text-align: justify" class="top-Iternary">
+                                    <!--Step2-->
+                                    <strong>Tel Aviv</strong> &middot;
+                                    <strong>Caesarea</strong> &middot;
+                                    <strong>Nazareth</strong> &middot;
+                                    <strong>Cana</strong> &middot;
+                                    <strong>Tiberias</strong> &middot;
+                                    <strong>Sea of Galilee</strong> &middot;
+                                    <strong>Jordan River</strong> &middot;
+                                    <strong>Mt. Tabor</strong> &middot;
+                                    <strong>Jerusalem</strong> &middot;
+                                    <strong>Ein Karem</strong> &middot;
+                                    <strong>Bethlehem</strong> &middot;
+                                    <strong>Qumran</strong> &middot;
+                                    <strong>Jericho</strong> &middot;
+                                    <strong>Dead Sea</strong> &middot;
+                                    <strong>Mt. of Olives</strong> &middot;
+                                    <strong>Mt. Zion</strong> &middot;
+                                    <strong>Holy Sepulchre</strong>
+                                </h4>
+                                <ul class="tab-list four gray flex-list noprint">
+                                    <li><a href="#includes"><strong>What's Included</strong></a></li>
+                                    <li><a href="#daybyday"><strong>Day-by-Day Itinerary</strong></a></li>
+                                    <li><a href="#dates"><strong>Dates & Prices</strong></a></li>
+                                    <li><a href="#info"><strong>Destination Information</strong></a></li>
+                                </ul>
+
+                                <!--Slider 2 "Top slider" start here-->
+                                <div class="tour-slider">
+                                    <div class="tour-slider-for">
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/holyland-pilgrimage-church-of-holy-sepulchre-jerusalem-israel1.jpg" title="Holy Sepulchre Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/holy-land-pilgrimage-church-of-all-nations-jerusalem-israel1.jpg" title="Church of All Nations Catholic Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage1.jpg" title="Church of Nativity Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mount-of-beatitudes-galilee-israel1.jpg" title="Mount of Beatitudes Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pilgrimage-group-baptisim-sea-of-galilee-holyland1.jpg" title="Galilee Baptisim Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/israel-pilgrimage-rock-of-agony-church-of-nations-jerusalem1.jpg" title="Rock of Agony, Church of All Nations Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pope-francis-holyland-western-wall-jerusalem1.jpg" title="Pope Francis Holy Land Western Wall"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/western-wall-wailing-wall-jerusalem-holyland-pilgrimage1.jpg" title="Monastery of St. George, Israel"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/catholic-holyland-pilgrimage-the-dead-sea-israel1.jpg" title="The Dead Sea, Israel Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-holy-sepulchre-jerusalem-pilgrimage1.jpg" title="Church of the Holy Sepulchre, Jerusalem"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-holy-sepulchre-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jordan-river-baptisim-pilgrimage-holy-land2.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/peter-noster-mount-of-olives-jerusalem-tour1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage2.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jericho-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mt-tabor-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/tabgha-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/galilee-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/food-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jesus-tomb-jerusalem-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pilgrims-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/206-tours-bus-jerusalem-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/sea-of-galilee-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/basilica-of-annunciation-nazareth-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mass-daily-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/cana-wedding-church-holy-land-pilgrimage2.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/basilica-of-annunciation-nazareth-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                    </div>
+
+                                    <div class="tour-slider-nav">
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/holyland-pilgrimage-church-of-holy-sepulchre-jerusalem-israel1.jpg" title="Holy Sepulchre Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/holy-land-pilgrimage-church-of-all-nations-jerusalem-israel1.jpg" title="Church of All Nations Catholic Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage1.jpg" title="Church of Nativity Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mount-of-beatitudes-galilee-israel1.jpg" title="Mount of Beatitudes Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pilgrimage-group-baptisim-sea-of-galilee-holyland1.jpg" title="Galilee Baptisim Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/israel-pilgrimage-rock-of-agony-church-of-nations-jerusalem1.jpg" title="Rock of Agony, Church of All Nations Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pope-francis-holyland-western-wall-jerusalem1.jpg" title="Pope Francis Holy Land Western Wall"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/western-wall-wailing-wall-jerusalem-holyland-pilgrimage1.jpg" title="Monastery of St. George, Israel"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/catholic-holyland-pilgrimage-the-dead-sea-israel1.jpg" title="The Dead Sea, Israel Pilgrimage"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-holy-sepulchre-jerusalem-pilgrimage1.jpg" title="Church of the Holy Sepulchre, Jerusalem"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-holy-sepulchre-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jordan-river-baptisim-pilgrimage-holy-land2.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/peter-noster-mount-of-olives-jerusalem-tour1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage2.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jericho-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mt-tabor-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/tabgha-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/galilee-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/food-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/jesus-tomb-jerusalem-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/pilgrims-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/206-tours-bus-jerusalem-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/sea-of-galilee-holy-land-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/basilica-of-annunciation-nazareth-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/mass-daily-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/cana-wedding-church-holy-land-pilgrimage2.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div class="tour-slider_item">
+                                            <img src="http://www.206tours.com/assets/images/tour-slide/holyland/basilica-of-annunciation-nazareth-holyland-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+
+                                    </div>
+                                </div>
+                                <!--Slider 2 "Top slider" end here-->
+
+                                <div class="user-content">
+
+                                    <!-- Step3 -->
+                                    <p>Make your way through the Holy Land to experience Him, follow in His footsteps, and see Him in the works He performed - your footsteps will become His. Celebrate votive Masses in the very places where these miraculous gifts became pages in the Gospel. See where He was back then, and feel how He is still there today!</p>
+                                </div>
+                            </div>
+                            <div class="small-12 large-3 large-order-1 columns b-info" style="margin-top:-0px;">
+                                <div class="row">
+                                    <div class="user-content small-12 medium-6 large-12 columns noprint">
+                                        <!-- <div><img src="Fr-Scott-Sautner.jpg" style="border:thin solid black;"><br><p style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fr. Scott Sautner</p><br></div> -->
+                                        <div class="b-map"><img src="pilgrimage-map-tour111.jpg" alt="pilgrimage map" style="border:thin solid black;"></div>
+                                        <a href="#dates" class="theme-btn blue">DATES &amp; PRICES</a>
+                                    </div>
+                                    <div class="small-12 medium-6 large-12 columns">
+                                        <div class="title b-share noprint">
+                                            <script type="text/javascript"
+                                                    src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51da16582fdebec2"></script>
+                                            <h5>Share</h5>
+                                            <a HREF="javascript:window.print()"><img src="http://www.206tours.com/assets/images/print_icon.png" border="0" alt="Share"></a>
+                                            <a class="addthis_button_twitter"><img src="http://www.206tours.com/assets/images/twitter_icon.png" border="0" alt="Share"></a>
+                                            <a class="addthis_button_facebook"><img src="http://www.206tours.com/assets/images/facebook_icon.png" border="0" alt="Share"></a>
+                                            <a class="addthis_button_pinterest_share"><img src="http://www.206tours.com/assets/images/pinterest_icon.png" border="0" alt="Share"></a>
+                                            <a class="addthis_button_email"><img src="http://www.206tours.com/assets/images/email_icon.png" border="0" alt="Share"></a>
+                                        </div>
+                                        <div class="b-info_inner">
+                                            <div class="title" style="margin-bottom: 5px;">
+                                                <h5 style="margin-bottom:10px;">Any Questions? &nbsp;Contact us:</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="small-6 medium-6 large-6 xlarge-6 small-centered columns">
+                                                <img src="http://www.206tours.com/aboutus/images/Patrick10-25a.jpg" style="border:thin solid #d5d5d5; margin-bottom:30px;" alt="Patrick" height="203" border="1">
+                                            </div>
+                                            <div class="small-6 medium-6 large-6 xlarge-6 small-centered columns" style="padding-left: 0">
+                                                <ul style="list-style: none; margin-left: 0;">
+                                                    <li><h4>Patrick</h4></li>
+                                                    <li><h5>Business Manager</h5></li>
+                                                    <li>1(800)-206-8687</li>
+                                                    <li><a class="link" href="mailto:Patrick@206tours.com">Patrick@206tours.com</a></li>
+                                                    <li>
+                                                        <a href="http://www.onlinechatcenters.com/chat/29129-66811?SESSID=buveaotoa7iaip6mrtnbm6fvd6&amp;ref=http%3A%2F%2Fwww.206tours.com"
+                                                           onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=800, height=450');return false;"
+                                                           class="link">
+                                                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                            <path class="st0" d="M18,0H2C0.9,0,0,0.9,0,2v18l4-4h14c1.1,0,2-0.9,2-2V2C20,0.9,19.1,0,18,0z M4,7h12v2H4V7z M12,12H4v-2h8V12z M16,6H4V4h12V6z"></path></svg>
+                                                            Live chat</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- <div class="small-6 medium-6 large-6 xlarge-5 small-centered columns">
+                                                <img src="http://www.206tours.com/aboutus/images/katherine.jpg" style="border:thin solid #d5d5d5;" alt="Katherine" height="203" border="1">
+                                            </div> -->
+                                            <!-- <div class="xlarge-6 small-centered columns" style="padding-left: 0">
+                                                <ul style="list-style: none; margin-left: 0;">
+                                                    <li><h4>Katherine</h4></li>
+                                                    <li><h5>Account Manager</h5></li>
+                                                    <li>1-800-206-Tour (8687)</li>
+                                                    <li><a class="link" href="mailto:katherine@206tours.com">Katherine@206tours.com</a></li>
+                                                    <a href="http://www.onlinechatcenters.com/chat/29129-66811?SESSID=buveaotoa7iaip6mrtnbm6fvd6&amp;ref=http%3A%2F%2Fwww.pilgrimages.com<? echo $_SERVER['PHP_SELF']; ?>"
+                                                            onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=800, height=450');return false;"
+                                                            class="link">
+                                                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                            <path class="st0" d="M18,0H2C0.9,0,0,0.9,0,2v18l4-4h14c1.1,0,2-0.9,2-2V2C20,0.9,19.1,0,18,0z M4,7h12v2H4V7z M12,12H4v-2h8V12z M16,6H4V4h12V6z"></path></svg> Live chat</a></li>
+
+                                                </ul>
+                                            </div> -->
+                                        </div>
+                                        <div class="b-info_inner noprint">
+                                            <div class="title">
+                                                <h6>Additional information</h6>
+                                            </div>
+                                            <a href="http://www.206tours.com/terms" target="_blank" class="link">Terms &amp; Conditions</a>
+                                            <div class="title">
+                                                <!-- <a href="Michael Stanton.pdf" target="_blank" class="link">
+												<h6 style="float: left; margin-right: 5px; margin-top: 20px;" class="link">View printable flyer</h6>
+                                                    <img src="http://www.206tours.com/images/pdf-icon.png" border="0"></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row show-for-large hide noprint">
+                            <div class="small-12 columns hidden-print">
+                                <ul class="tab-list four full-width">
+                                    <li><a href="#includes"><strong>What's Included</strong></a></li>
+                                    <li><a href="#daybyday"><strong>Day-by-Day Itinerary</strong></a></li>
+                                    <li><a href="#dates"><strong>Dates & Prices</strong></a></li>
+                                    <li><a href="#info"><strong>Destination Information</strong></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Your trip includes start here -->
+                <section id="includes" data-accordion-item class="accordion-item">
+                    <div class="row show-for-large noprint">
+                        <div class="small-12 columns">
+                            <ul class="tab-list four gray flex-list">
+                                <li><a href="#includes"><strong>What's Included</strong></a></li>
+                                <li><a href="#daybyday"><strong>Day-by-Day Itinerary</strong></a></li>
+                                <li><a href="#dates"><strong>Dates & Prices</strong></a></li>
+                                <li><a href="#info"><strong>Destination Information</strong></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="accordion-title">
+
+                        <h4>Your trip includes</h4></a>
+                    <div data-tab-content id="first" class="accordion-content">
+                        <div class="row">
+                            <div class="small-12 large-6 columns">
+                                <div class="user-content">
+                                    <div class="include-list">
+                                        <ul>
+                                            <li>Round-trip airfare from <div class="bookNowButton" style="display:inline"><a class='link' href="#dates">New York (JFK) with Add-Ons </a>
+                                                <!--<ol>&nbsp;&nbsp;&nbsp;*<div class="bookNowButton" style="display:inline"><a class='link' href="#dates">book without airfare (land only option)</a></div></ol></div>-->
+                                            </div></li>
+                                            <li>Airport taxes &amp; fuel surcharges</li>
+                                            <!--
+                                            <li>Hotels in Jordan: Centrally located first class hotels (or similar)</small>
+                                            <ol>&nbsp;&nbsp;&nbsp;~ 1 night:  <a class="link" href="http://www.206tours.com/info/jordan/hotels/amman-cham.htm" target="_blank">Cham Palace, </a>Amman, Jordan<br></ol>
+                                            <ol>&nbsp;&nbsp;&nbsp;~ 1 night: Petra Moon, </a>Petra, Jordan<br></ol>
+                                            <ol>&nbsp;&nbsp;&nbsp;~ 1 night: <a class="link" href="http://www.206tours.com/info/jordan/hotels/amman-cham.htm" target="_blank">Cham Palace</a>, Amman, Jordan<br></ol>
+                                            -->
+                                            <ul><small>Accommodations at centrally located Four & Five Star Hotels: (or similar)</small>
+                                                <ol>&nbsp;&nbsp;&nbsp;~ 1 night:  <a class="link" href="http://www.206tours.com/info/holyland/hotels/tel-aviv-dan-panorama-hotel.htm" target="_blank">Dan Panorama</a>, Tel Aviv<br></ol>
+                                                <ol>&nbsp;&nbsp;&nbsp;~ 2 nights: <a class ="link" href ="https://www.206tours.com/info/holyland/hotels/leonardo-plaza-hotel/index.htm" target="_blank">Leonardo Plaza</a>, Tiberias<br></ol>
+                                                <ol>&nbsp;&nbsp;&nbsp;~ 5 nights: <a class="link" href="http://www.206tours.com/info/holyland/hotels/david-citadel/" target="_blank">David Citadel</a>, Jerusalem </ol>
+                                            </ul>
+                                            <li>Transfers as per itinerary</li>
+                                            <li>Breakfast, Lunch, and Dinner daily</li>
+                                            <li>Wine and Mineral Water with Dinners</li>
+                                            <li>Transportation by air-conditioned motor coach</li>
+                                            <li>Free Wi-Fi on motor coach</li>
+                                            <li>Wireless headsets while sightseeing throughout</li>
+                                            <li>Assistance of a professional local Catholic Guide</li>
+                                            <li>Sightseeing and admissions fees as per itinerary</li>
+                                            <li>Votive Masses daily & Spiritual activities</li>
+                                            <li>Spiritual Director (of your choosing) to celebrate Mass daily
+                                            <li>Conference Room: Reserved for Group Leader to give one (1) Lecture and one (1) Q & A</li>
+                                            <li>Luggage handling (at Hotels – 1 piece per person)</li>
+                                            <li>Tips to Hotel Staff, Restaurants, and Luggage Handlers</li>
+                                            <li><a class='link' href="http://www.206tours.com/documents/index.htm">Flight bag &amp; portfolio of all travel documents</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-12 large-6 columns noprint bottommargin-lg show-for-large">
+                                <div class="title clearfix">
+
+                                    <!--Step4-->
+                                    <h5>Centrally located hotels or similar</h5>
+                                </div>
+                                <div class="row">
+                                    <!--Hotel block Dan Panorama starts here-->
+                                    <div class="small-12 medium-6 columns hotel-item_wrap">
+                                        <div class="hotel-item clearfix">
+                                            <div class="hotel-item_img">
+                                                <img src="http://www.206tours.com/assets/images/hotels/holyland/dan-panorama-hotel.jpg" alt="hotel" style="border:thin solid black;"></div>
+                                            <div class="hotem-item_descr">
+                                                <h5>Dan Panorama</h5>
+                                                <small>Tel Aviv</small>
+                                                <ul class="rating">
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="stroke">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                </ul>
+                                                <p>1 Night</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Hotel block Dan Panorama ends here-->
+
+                                    <!--Hotel block Leonardo Plaza starts here-->
+                                    <div class="small-12 medium-6 columns hotel-item_wrap">
+                                        <div class="hotel-item clearfix">
+                                            <div class="hotel-item_img">
+                                                <img src="http://www.206tours.com/assets/images/hotels/holyland/Leonardo-Plaza-Hotel.jpg" alt="hotel" style="border:thin solid black;"></div>
+                                            <div class="hotem-item_descr">
+                                                <h5>Leonardo Plaza</h5>
+                                                <small>Tiberias</small>
+                                                <ul class="rating">
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="stroke">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                </ul>
+                                                <p>2 Nights</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Hotel block Leonardo Plaza ends here-->
+
+                                    <!--Hotel block Dan Jerusalem starts here-->
+                                    <div class="small-12 medium-6 columns hotel-item_wrap">
+                                        <div class="hotel-item clearfix">
+                                            <div class="hotel-item_img">
+                                                <img src="http://www.206tours.com/scotthahn/David-Citadel-jerusalem.jpg"
+                                                     alt="hotel" style="border:thin solid black;"></div>
+                                            <div class="hotem-item_descr">
+                                                <h5>David Citadel</h5>
+                                                <small>Jerusalem</small>
+                                                <ul class="rating">
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="fill">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                    <li class="stroke">
+                                                        <svg id="SvgjsSvg1011" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="14"><defs id="SvgjsDefs1012"></defs><path id="SvgjsPath1013" d="M1242.01 1911.04C1241.98 1910.95 1241.9 1910.8799999999999 1241.8 1910.87L1237.08 1910.2299999999998L1234.97 1906.2299999999998C1234.93 1906.1399999999999 1234.84 1906.0899999999997 1234.74 1906.0899999999997C1234.64 1906.0899999999997 1234.55 1906.1399999999996 1234.5 1906.2299999999998L1232.39 1910.2299999999998L1227.67 1910.87C1227.5700000000002 1910.8799999999999 1227.49 1910.9499999999998 1227.46 1911.04C1227.43 1911.1299999999999 1227.45 1911.22 1227.53 1911.29L1230.94 1914.3999999999999L1230.14 1918.8C1230.1200000000001 1918.8899999999999 1230.16 1918.99 1230.24 1919.04C1230.32 1919.1 1230.43 1919.1 1230.51 1919.06L1234.74 1916.98L1238.96 1919.06C1239 1919.08 1239.04 1919.09 1239.08 1919.09C1239.1299999999999 1919.09 1239.1899999999998 1919.07 1239.23 1919.04C1239.31 1918.99 1239.35 1918.8899999999999 1239.34 1918.8L1238.53 1914.3999999999999L1241.95 1911.29C1242.02 1911.22 1242.04 1911.1299999999999 1242.01 1911.04Z " fill="#afafaf" transform="matrix(1,0,0,1,-1227,-1906)"></path></svg>
+                                                    </li>
+                                                </ul>
+                                                <p>5 Nights</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Hotel block Dan Jerusalem ends here-->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Not included starts here-->
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <div class="title nobreak-before nobreak-after">
+
+                                    <!-- Step5 -->
+                                    <h5>Not included</h5>
+                                </div>
+                                <div class="user-content nobreak-before nobreak-after">
+                                    <div class="column-list">
+                                        <ul>
+                                            <li>Tips to your guide & driver, individual transfers.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Not included ends here-->
+
+                        <div class="row noprint">
+                            <div class="small-12 columns">
+                                <div class="title">
+                                    <h5>Optional</h5>
+                                </div>
+                            </div>
+                            <div class="small-12 large-5 columns option-item-wrap">
+                                <div class="option-item noborder clearfix">
+                                    <div class="option-item_descr">
+                                        <h5><a class='link' href="http://www.206tours.com/insurance/insurance" target="blank">Travel Insurance</a></h5>
+                                        <p>Providing you coverage, both Pre-Existing Conditions and throughout your
+                                            trip. From Medical and Dental Emergencies, Loss of Luggage, Trip Delay, and
+                                            so much more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="small-12 large-5 columns option-item-wrap">
+                                <div class="option-item noborder clearfix">
+                                    <div class="option-item_descr">
+                                        <h5><a class='link' href="http://www.206tours.com/cancellationprotection" target="blank">Supplemental Cancellation Protection</a></h5>
+                                        <p>A Cancellation Waiver - allowing you to cancel your trip and receive a refund
+                                            anytime - up until 24 hours prior to departure. The &#8220;Waiver&#8221;
+                                            expires once you are within 24 hours of departure.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-12 large-2 columns has-button">
+                                <div class="b-btn"><a href="#dates" data-content="third" class="theme-btn blue has-tab-anchor">Dates & Prices</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Your trip includes ends here -->
+
+                <!-- Step6 -->
+                <!-- Day by day ends here -->
+                <section id="daybyday" data-accordion-item class="accordion-item"><a href="#" class="accordion-title break-before">
+                    <h4>Itinerary</h4></a>
+                    <div data-tab-content id="second" class="accordion-content">
+                        <div class="row">
+                            <div class="small-12 large-8 columns">
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>1</small></span>
+                                        <h5>Sun, May 5: Depart for the Holy Land</h5>
+                                    </div>
+                                    <p>This evening, make your way to JFK Airport where you will board your overnight flight to Tel Aviv. Your meals are served on board.</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>2</small></span>
+                                        <h5>Mon, May 6: Arrive in Tel Aviv</h5>
+                                    </div>
+                                    <p>On arrival in Tel Aviv you will, make your way to the “Arrival’s Hall” where you will be met by your Guide/Driver. From there, you will be brought to your Hotel in Tel Aviv where you will have time to relax. You will celebrate Mass, followed by dinner and overnight.
+
+                                    </p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>3</small></span>
+                                        <h5>Tue, May 7: Tel Aviv - Tiberias: Nazareth and Cana
+                                            <br>
+                                            <small class="theme-holy-land">Theme: The Annunciation</small>
+                                        </h5>
+                                    </div>
+                                    <p>The day starts at the Mount of Beatitudes, scene of Jesus’ great Sermon on the Mount. Then to Tabgha where Jesus fed the crowd of 5,000 and onto the site known as “Peter’s Primacy”. Here, after His resurrection, Jesus met with His disciples and told Peter to “feed my lambs; feed my sheep.” [John 21:9]. Enjoy a lunch of St Peter Fish. A short drive away is Capernaum, from where Jesus launched his Ministry; see the synagogue which dates to the time of Jesus and the church built over the site of Peter’s home. Celebrate Mass in this special place. The day with also include a Boat ride on the Sea of Galilee. In the afternoon you will have two options: a) return to the hotel to rest or to spend some quiet time along the Sea of Galilee, or, b) a visit Caesarea Philippi, also known as Banias. It was here that Peter recognized Jesus as the messiah and where Jesus told St. Peter, “You are the Rock, and upon this rock I will build my Church.” Banias is also the source of the River Jordan. Please note that this trip is a 3 hour return trip. Return to your hotel for dinner and overnight.
+
+                                    </p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>4</small></span>
+                                        <h5>Wed, May 8: Tiberias: Sea of Galilee and Banias
+                                            <br>
+                                            <small class="theme-holy-land">Theme: The Ministry of Christ in the Galilee</small>
+                                        </h5>
+                                    </div>
+                                    <p>The day starts at the Mount of Beatitudes, scene of Jesus’ great Sermon on the Mount. Then to Tabgha where Jesus fed the crowd of 5,000 and onto the site known as “Peter’s Primacy”. Here, after His resurrection, Jesus met with His disciples and told Peter to “feed my lambs; feed my sheep.” [John 21:9]. Enjoy a lunch of St Peter Fish. A short drive away is Capernaum, from where Jesus launched his Ministry; see the synagogue which dates to the time of Jesus and the church built over the site of Peter’s home. Celebrate Mass in this special place. The day with also include a Boat ride on the Sea of Galilee. In the afternoon you will have two options: a) return to the hotel to rest or to spend some quiet time along the Sea of Galilee, or, b) a visit Caesarea Philippi, also known as Banias. It was here that Peter recognized Jesus as the messiah and where Jesus told St. Peter, “You are the Rock, and upon this rock I will build my Church.” Banias is also the source of the River Jordan. Please note that this trip is a 3 hour return trip. Return to your hotel for dinner and overnight.</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>5</small></span>
+                                        <h5>Thu, May 9: Mt. Tabor, Caesarea, and Jerusalem
+                                            <br>
+                                            <small class="theme-holy-land">Theme: The Transfiguration</small></h5>
+                                    </div>
+                                    <p>Start the day with a drive to Mount Tabor, the site of the Transfiguration, with time to reflect on Christ’s Humanity and Divinity, good preparation for the journey to Jerusalem where Jesus was to suffer the crucifixion and resurrection. Mass here will be at the Basilica here designed to represent 3 tents. Upon descent from Mt Tabor head for Caesarea, which was once the ancient capital of the Roman province. Here you view the impressive archaeological remains of the Roman and Byzantine city that once dominated the region. It was at Caesarea that Peter came to understand that the Good News was not for Jews only, but for the whole world. Here he baptized the Roman Centurion, Cornelius, and his family. It was from Caesarea that Paul set sail for Rome, an event that eventually brought Christianity to the World. Drive through the Jezreel Valley, also known as the valley of Armageddon. End the day in Jerusalem at hotel.</p>
+                                    <p style="color: #d60d0d; margin-top:-20px;">Lecture this Evening with Group Leader</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>6</small></span>
+                                        <h5>Fri, May 10: Jerusalem: Temple Model - Ein Karem and Bethlehem
+                                            <br>
+                                            <small class="theme-holy-land">Theme: The Visitation and Nativity</small></h5>
+                                    </div>
+                                    <p>This morning visit to the Israel Museum to see the Second Temple scale model for an overview of Jerusalem as it was at the time of Jesus. A short drive takes us to the village of Ein Karem, birthplace of John the Baptist, to visit the church that commemorates his memory. Pray the Mystery of the Rosary on the walk up the hill to the Church of the Visitation. After a break for lunch on our own drive to Bethlehem to see the cave at the Shepherds’ Field. The caves have soot marks of the fires that shepherd’s lit to keep warm while watching over their flocks. Then to Bethlehem, beginning at Manger Square which stands in front of one of the oldest of Christian churches, the Church of the Nativity. Enter the Church and down to the Grotto of the Nativity which marks the spot of Jesus’ birth. Beneath the Altar, there is a silver star with the Latin inscription: HIC DE VIRGINE MARIA JESUS CHRISTUS NATUS (Here Jesus Christ was born to the Virgin Mary.). After Mass at the Church of St. Catherine return to the hotel in Jerusalem for dinner for dinner and overnight.</p>
+                                    <p style="color: #d60d0d; margin-top:-20px;">Q&A this Evening with Group Leader</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>7</small></span>
+                                        <h5>Sat, May 11: Jerusalem: High Mass at the Church of Holy Sepulchre and Via Dolorosa
+                                            <br>
+                                            <small class="theme-holy-land">Theme: The Way of the Cross, The Crucifixion, and The Resurrection</small></h5>
+                                    </div>
+                                    <p>This morning we start our day with the High Mass at the Tomb of Christ in the Church of the Holy Sepulchre. Return to hotel for breakfast. Later today we will walk the Via Dolorosa (The Way of the Cross) at the Antonia Fortress, where Jesus was condemned to death by Pontius Pilate. From there He was taken through the city to be crucified. The Stations of the Cross lead, through the markets of the Old City to the to the Church of the Holy Sepulcher (Luke 23:26-33). This sacred destination is the site of Calvary (Jesus' crucifixion place) and His tomb (Luke 23: 50-55). Celebrate Mass at the Church of the Holy Sepulchre. Following Mass, we will return to the hotel to enjoy breakfast. We will continue our day with a visit to the Church of St. Anne's, the home of Jesus' maternal grandparents (Anne and Joachim); and the Pool of Bethesda, where Jesus healed the crippled man (John 5:1-9). This afternoon, enjoy a revisit to the Old City. Following this visit return to the hotel to enjoy dinner and overnight at your hotel.</p>
+                                    <p style="color: #d60d0d; margin-top:-20px;">Last Day with Group Leader before they return Home</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>9</small></span>
+                                        <h5>Sun, May 12: Jerusalem: Bethany, Jericho, Qumran, Dead Sea, and the Jordan River<br>
+                                            <small class="theme-holy-land">Theme: Early Years in Jerusalem and The Wilderness </small>
+                                        </h5>
+                                    </div>
+                                    <p>Start the day with Mass at Bethany where Lazarus was raised from the dead. Drive through the Judean Wilderness where Jesus spent 40 days fasting. Stop at Jericho, the world’s oldest continuously inhabited city, to view the Mt of Temptation and see an example of a Sycamore Tree. Visit the Baptismal site at the Jordan River and renewal of baptismal promises. Then on to Qumran to visit the remains of the Essene community which produced the Dead Sea Scrolls. There is time for some fun: a swim in the Dead Sea! Bring a change of clothes! Return to the hotel for dinner. Group sharing and reflection on our pilgrimage.</p>
+
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>9</small></span>
+                                            <h5>Mon, May 13: Jerusalem: Mt. of Olives, Gethsemane, and Mt. Zion – Western Wall<br>
+                                                <small class="theme-holy-land">Theme: Palm Sunday and the Agony in the Garden</small>
+                                            </h5>
+                                        </div>
+                                        <p>From the Mount of Olives take in the panoramic view of Jerusalem. Then to the Pater Noster shrine, where Jesus taught His disciples the Pater Noster — The Lord’s Prayer (Luke 11:1-4). Walking down the Palm Sunday Road stop at the beautiful little church, Dominus Flevit - “The Lord wept.” It was here that Jesus wept over Jerusalem [Luke 19:41]. At Gethsemane reflect on Jesus’ final night. The Garden contains trees, the roots of which go back to the time of Jesus. Visit the Church of All Nations to pray at the “Rock of Agony,” a section of bedrock identified as the place where Jesus prayed alone in the garden on the night of His arrest. From there, take the route through the Kidron Valley along which Jesus was taken as a prisoner to the house of the High Priest Caiaphas where He was interrogated and imprisoned. Now called Peter in Gallicantu (“crowing rooster”), this beautiful Church also commemorates Peter’s Denial of Christ, his repentance and then being forgiven by Jesus. Visit the dungeons under the church. We celebrate Mass. After Mass, go up to Mt. Zion to visit the Upper Room, commemorating the Last
+                                            Supper. Nearby is the Benedictine Church of the Dormition. Visit the Western Wall of the Temple Mount then walk to see the Church of St Anne and the Pool of Bethesda, where Jesus healed the crippled man. Return to hotel for dinner and overnight.
+
+                                        </p>
+                                    </div>
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>10</small></span>
+                                            <h5>Tue, May 14: Jerusalem: Final Day in Jerusalem</h5> <br>
+                                        </div>
+                                        <p>Today you will have a late checkout, and the remainder of the day is free for you to spend at your own leisure. You will meet for a Farewell Dinner, and then transfer to the airport in the evening for the early morning flight(s) home. (Return flight home departs at 11:45 PM on February 24th, or 12:40 A.M. on February 25th. You will arrive in New York, in the early morning, on February 25th).</p>
+                                    </div>
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>11</small></span>
+                                            <h5>Wed, May 15: Arrive Home</h5>
+                                        </div>
+                                        <p>Arrive back home. </p>
+                                        <br>
+                                        <!-- <small>*206 Tours Disclaimer: Though every effort will be made to follow the
+                                            itinerary, it should be considered as an indication, rather than a contract
+                                            of places to be visited. Occasionally local religious holidays, national
+                                            days, weather, traffic conditions and other events may necessitate changes
+                                            in the sequence of visits or the missing of certain visits.
+                                        </small> -->
+                                    </div>
+
+                                    <!-- <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>11</small></span>
+                                            <h5>Wed, Dec 12: Arrive Home</h5>
+                                        </div>
+                                        <p>You will arrive back home today.</p>
+                                        <br>
+
+                                    </div> -->
+                                </div>
+                                <!--End of Itinerary section-->
+                                <div class="b-btn noprint">
+                                    <a href="mailto:sales@206tours.com" data-content="fives" class="theme-btn silver has-tab-anchor">Want to extend your trip?</a>
+                                    <a href="#dates" data-content="third" class="has-tab-anchor theme-btn silver hide-for-large">Dates & Prices</a></div>
+                            </div>
+                            <div class="small-12 large-4 columns show-for-large">
+                                <div class="row">
+                                    <!--
+                                      <div class="small-12 medium-6 large-12 columns noprint">
+                                        <div class="popup-gallery"><a href="http://dummyimage.com/600x600/000000/fff" title="Image description"><img src="http://dummyimage.com/600x600/000000/fff" alt="pic"></a><a href="http://dummyimage.com/600x600/000000/fff" title="Image description"><img src="http://dummyimage.com/600x600/000000/fff" alt="pic"></a><a href="http://dummyimage.com/600x600/000000/fff" title="Image description"><img src="http://dummyimage.com/600x600/000000/fff" alt="pic"></a><a href="http://dummyimage.com/600x600/000000/fff" title="Image description"><img src="http://dummyimage.com/600x600/000000/fff" alt="pic"></a><a href="http://dummyimage.com/600x600/000000/fff" title="Image description"><img src="http://dummyimage.com/600x600/000000/fff" alt="pic"></a><span data-href="#full-gallery" class="open-gallery-link"><span>All <br> photos</span><img src="http://www.206tours.com/register/assets/images/gallery2.jpg" alt="pic"></span></div>
+                                        <div id="full-gallery" class="mfp-hide">
+                                          <div class="slide"><img src="http://www.206tours.com/images/slide1.jpg" alt="Image description"></div>
+                                          <div class="slide"><img src="http://www.206tours.com/images/slide1.jpg" alt="Image description"></div>
+                                          <div class="slide"><img src="http://www.206tours.com/images/slide1.jpg" alt="Image description"></div>
+                                          <div class="slide"><img src="http://www.206tours.com/images/slide1.jpg" alt="Image description"></div>
+                                          <div class="slide"><img src="http://www.206tours.com/images/slide1.jpg" alt="Image description"></div>
+                                        </div>
+                                      </div>
+                                      -->
+                                    <!--Israel-->
+                                    <div class="small-12 medium-6 large-12 columns"><a href="http://www.206tours.com/info/israel" target="_blank" class="info-link">
+                                        <div class="info-link_img">
+                                            <img src="http://www.206tours.com/assets/images/kbyg/catholic-tours-know-before-you-go-2017.png" alt="Pilgriamge Information"></div>
+                                        <div class="info-link_descr">
+                                            <p style="font-size: 32px; text-align:left">Israel</p>
+                                        </div></a>
+                                    </div>
+                                    <div class="small-12 medium-6 large-12 columns"><a href="http://www.206tours.com/terms/index.htm" target="_blank" class="info-link">
+                                        <div class="info-link_img">
+                                            <img src="http://www.206tours.com/assets/images/kbyg/pilgrimage-terms-conditions1.jpg" alt="Pilgriamge Information"></div>
+                                        <div class="info-link_descr">
+                                            <!--<p>Terms & Conditions</p>-->
+                                        </div></a>
+                                    </div>
+
+                                    <div class="small-12 medium-6 large-12 columns"><a href="http://www.206tours.com/faq/index.htm" target="_blank" class="info-link">
+                                        <div class="info-link_img">
+                                            <img src="http://www.206tours.com/assets/images/kbyg/faq-catholic-pilgrimages.png" alt="Pilgriamge Information"></div>
+                                        <div class="info-link_descr">
+                                            <!--<p>FAQ</p>-->
+                                        </div></a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Day by day starts here -->
+
+                <!-- Book your trip now starts here -->
+                <section id="dates" data-accordion-item class="noprint accordion-item">
+                    <a href="#" class="accordion-title">
+                        <h4>Book your trip now</h4></a>
+                    <div data-tab-content id="third" class="accordion-content">
+                        <div class="row">
+                            <div class="small-12 xlarge-8 columns hide-for-medium noprint">
+                                <a href="#" class="show-compact">Compact view</a><a href="#" class="show-full hide">Desktop view</a></div>
+                        </div>
+                        <? get_departures_responsive($TOUR_ID); ?>
+                        <div class="small-12 xlarge-4 columns show-for-large">
+                            <div class="options-descr">
+                                <div class="title">
+                                    <h5>Options &amp; Upgrades</h5>
+                                    <p style="color:#ea6d6d; text-align: left;">*All pricing is per person</p>
+                                </div>
+                                <p>Single Supplement / Private Room
+                                    <span><? echo $TOUR_INFO['TourSinglePrice']; ?></span></p>
+                                <p>Business Class Trans-Atlantic
+                                    <small>(One-Way)</small>
+                                    <span> <? echo $TOUR_INFO['TourBusinessClassOneWayPrice']; ?></span></p>
+                                <p>Business Class Trans-Atlantic
+                                    <small>(Round-Trip)</small>
+                                    <span> <? echo $TOUR_INFO['TourBusinessClassRoundTripPrice']; ?></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row add-tour">
+                        <div class="small-12 xlarge-4 columns show-for-large">
+                            <div class="title">
+                                <h3><b>Pre Tour to Jordan:</b></h3>
+                                <h4><b>May 2 - 6, 2019</b></h4>
+                                <h5>
+                                </h5>
+                                <h5> <!-- &nbsp;&nbsp;|&nbsp;&nbsp; Private Room: $199 --></h5>
+                            </div>
+                            <div class="user-content" style="margin-bottom: 20px;">
+                                <ul>
+                                    <li>Centrally Located Four Star Hotels: <small>(or similar)</small>
+                                        <ol>~ 1 night: <a href="http://www.206tours.com/info/jordan/hotels/amman-cham.htm">Cham Palace, Amman </a></ol>
+                                        <ol>~ 1 night: <a href="http://www.206tours.com/info/jordan/hotels/petra-taybet.htm">Petra Moon,</a> Petra, Jordan</ol>
+                                        <ol>~ 1 night: <a href="http://www.206tours.com/info/jordan/hotels/amman-cham.htm">Cham Palace, Amman</a></ol>
+                                    </li>
+                                    <li>Breakfast and dinner daily</li>
+                                    <li>Transfers as per itinerary (on Group Basis)</li>
+                                    <li>Transportation by air-conditioned motor coach</li>
+                                    <li>Wireless headsets for additional sightseeing</li>
+                                    <li>Assistance of a professional local guide throughout</li>
+                                    <li>Sightseeing and admissions fees as per itinerary</li>
+                                    <li>Arrangements for Mass Daily</li>
+                                    <li>Tips to Restaurants</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="medium-6 xlarge-4 columns show-for-large">
+                            <img src="http://www.206tours.com/eastern/jordan1.jpg" align="right" style="border:thin solid black;">
+                        </div>
+                        <div class="medium-6 xlarge-4 columns show-for-large">
+                            <!--
+                            <div class="options-descr">
+                            <div class="title">
+                            <h5>Pre Stay</h5>
+                            <p style="color:#ea6d6d; text-align: left;">*All pricing is per person</p>
+                            </div>
+                            <p><? echo $OPTION_PRICING['317']['Description']; ?> <small>(<? echo $OPTION_PRICING['317']['Quantifier']; ?>)</small> <span>
+                            <? echo  $OPTION_PRICING['317']['Cost']; ?></span></p>
+                            <p><? echo $OPTION_PRICING['318']['Description']; ?> <small>(<? echo $OPTION_PRICING['318']['Quantifier']; ?>)</small> <span>
+                            <? echo  $OPTION_PRICING['318']['Cost']; ?></span></p>
+                            <p><? echo $OPTION_PRICING['319']['Description']; ?> <small>(<? echo $OPTION_PRICING['319']['Quantifier']; ?>)</small> <span>
+                            <? echo  $OPTION_PRICING['319']['Cost']; ?></span></p>
+                            </div>
+                            -->
+
+                            <!-- <div class="options-descr">
+                               <div class="title">
+                                   <h5>Pre Tour to Jordan</h5>
+                                   <p style="color:#ea6d6d; text-align: left;">*All pricing is per person</p>
+                               </div>
+                               <p><? echo $OPTION_PRICING['1478']['Description']; ?> <small>(<? echo $OPTION_PRICING['1478']['Quantifier']; ?>)</small> <span>
+                                   <? echo  $OPTION_PRICING['1478']['Cost']; ?></span></p>
+                               <p><? echo $OPTION_PRICING['1479']['Description']; ?> <small>(<? echo $OPTION_PRICING['1479']['Quantifier']; ?>)</small> <span>
+                                   <? echo  $OPTION_PRICING['1479']['Cost']; ?></span></p>
+                           </div> -->
+                            <!--
+                            <!--<div class="options-descr">-->
+                            <!--<div class="title">-->
+                            <!--<h5>Post Tour Options</h5>-->
+                            <!--</div>-->
+                            <!--<p>Jerusalem Post Tour - Double Room <small>(Per Night)</small><span>$139,00 (USD)</span></p>-->
+                            <!--<p>Jerusalem Post Tour - Private Room <small> (Per Night)</small> <span>$226,00 (USD)</span></p>-->
+                            <!--<p>Jerusalem Post Tour- Departure Transfer <small>(Per Person)</small> <span> $78,00 (USD)</span></p>-->
+                            <!--</div>
+                            -->
+
+                        </div>
+                        <div class="medium-12 xlarge-8 columns show-for-large">
+                            <div class="title">
+                                <h5><br>Itinerary</h5>
+                            </div>
+                            <div class="user-content" style="margin-bottom: 20px;">
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>1</small></span>
+                                        <h5>Thu - May 2: Depart for Jordan</h5>
+                                    </div>
+                                    <p>Make your way to your local airport where you will board your overnight flight. Your meals are served on board.
+
+                                    </p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>2</small></span>
+                                        <h5>Fri - May 3: Arrive Amman</h5>
+                                    </div>
+                                    <p>Upon arrival in Amman, make your way to the baggage claim area and collect your luggage. Proceed to the arrival's hall, where you will be greeted by your tour guide and/or driver. . Transfer to the hotel in Amman for check-in. Enjoy dinner at the hotel before retiring for the evening. </p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>3</small></span>
+                                        <h5>Sat - May 4: Petra</h5>
+                                    </div>
+                                    <p>This morning, you will transfer to the “lost” city of Petra! This city is located amongst rugged desert canyons and mountains. Enjoy a walking tour of the former capital and trading center. Your first stop  will be a visit to the Siq, a mile-long gorge that contains a number of magnificent structures that are carved into the mountains. The walk will culminate with a visit to the Petra Museum. The Museum holds numerous artifacts from the Neolithic period of the Nabataen history. The museum also contains architecture from the Romans as well as, a Byzantine chapel. Spend this afternoon at your own leisure. Feel free to shop, relax or rest before dinner and overnight.</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>4</small></span>
+                                        <h5>Sun - May 5: Petra – Kerak – Madaba – Mt. Nebo - Amman</h5>
+                                    </div>
+                                    <p>Today, after breakfast travel to the Castle of Kerak; the largest castle among mountain-top crusaders. Following this visit, transfer to the “City of Mosaics,” Madaba. While in this city, you will visit St. George’s Church that is home to a true treasure of Christianity. This Church houses the oldest map of the Holy Land which includes Israel, Palestine, and Southern Egypt. Later, visit Mt. Nebo, the most revered holy sites of Jordan. This mountain was mentioned in Deuteronomy 34, “Then Moses climbed Mount Nebo from the plains of Moab to the top of Pisgah…” While here, you will tour the Holy site of where Moses died and was buried. Following your visit to this Sacred place, return to Amman before dinner and an overnight.</p>
+                                </div>
+                                <div class="day-row user-content">
+                                    <div class="day-title"><span>Day<small>5</small></span>
+                                        <h5>Mon - May 6: Amman – Jerash – Tel Aviv
+                                            <br>
+                                            <small class="theme-holy-land">*Crossing the Jordanian Border into Israel*</small></h5>
+
+
+                                    </div>
+                                    <p>Following breakfast, you will depart for Jerash, nestled in a quiet valley among the mountains of Gilead, is the grandeur of Imperial Rome being one of the largest and most well preserved sites of Roman architecture in the world outside of Italy. To this day, its paved and colonnaded streets, soaring hilltop temples, handsome theaters, spacious public squares and plazas, baths, fountains and city walls pierced by towers and gates remain in exceptional condition. Later today we will be crossing the Jordanian border into the Holy Land and continue toward the Mediterranean Coast to Tel Aviv for dinner and an overnight.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 xlarge-12 columns show-for-large">
+                                    <div class="title">
+                                        <h5>Would like to stop over in Europe?</h5>
+                                    </div>
+                                    <div class="user-content bottommargin-lg">
+                                        <p>
+                                            Let us know at time of registration, we will reschedule your airline
+                                            reservations pending availability at no additional fee (these options will be available to you when you register online). Let us know if you need assistance with pre or Post Tour at hotel.<br>
+                                            Simply Contact <strong>206 Tours:</strong>&nbsp;<a> 800-206-TOUR (8687)</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Book your trip now ends here -->
+
+                <!-- Options and upgrades for mobiles starts here -->
+                <section id="options" data-accordion-item class="noprint accordion-item hide-for-large noprint"><a href="#"
+                                                                                                                   class="accordion-title">
+                    <h4>Options and upgrades</h4></a>
+                    <div data-tab-content id="fives" class="accordion-content">
+                        <div class="row">
+                            <div class="small-12 xlarge-4 columns">
+                                <div class="options-descr">
+                                    <div class="title">
+                                        <p style="color:#ea6d6d; text-align: left;">*All pricing is per person</p>
+                                    </div>
+                                    <p>Single Supplement / Private Room
+                                        <span><? echo $TOUR_INFO['TourSinglePrice']; ?></span></p>
+                                    <p>Business Class Trans-Atlantic
+                                        <small>(One-Way)</small>
+                                        <span> <? echo $TOUR_INFO['TourBusinessClassOneWayPrice']; ?></span></p>
+                                    <p>Business Class Trans-Atlantic
+                                        <small>(Round-Trip)</small>
+                                        <span> <? echo $TOUR_INFO['TourBusinessClassRoundTripPrice']; ?></span></p>
+                                </div>
+                                <!--
+                                <div class="options-descr">
+                                      <div class="title">
+                                        <h6>Pre Stay</h6>
+                                        <p><font color="#ea6d6d">*All pricing is per person</font></p>
+                                      </div>
+                                            <p><? echo $OPTION_PRICING['1157']['Description']; ?>  <span>
+                                              <? echo  $OPTION_PRICING['1157']['Cost']; ?></span></p>
+                                            <p><? echo $OPTION_PRICING['1158']['Description']; ?>  <span>
+                                              <? echo  $OPTION_PRICING['1158']['Cost']; ?></span></p>
+                                            <p><? echo $OPTION_PRICING['1159']['Description']; ?>  <span>
+                                              <? echo  $OPTION_PRICING['1159']['Cost']; ?></span></p>
+                                    </div>
+                                    -->
+
+                                <!-- <div class="options-descr">
+                                    <div class="title">
+                                        <h6>Pre Tour to Jordan</h6>
+                                        <p style="color:#ea6d6d; text-align: left;">*All pricing is per person</p>
+                                    </div>
+                                    <p><? echo $OPTION_PRICING['1478']['Description']; ?> <small>(<? echo $OPTION_PRICING['1478']['Quantifier']; ?>)</small> <span>
+                                        <? echo  $OPTION_PRICING['1478']['Cost']; ?></span></p>
+                                    <p><? echo $OPTION_PRICING['1479']['Description']; ?> <small>(<? echo $OPTION_PRICING['1479']['Quantifier']; ?>)</small> <span>
+                                        <? echo  $OPTION_PRICING['1479']['Cost']; ?></span></p>
+                                </div> -->
+
+
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="small-12 xlarge-4 columns">
+                                <div class="title">
+                                    <h3><b>Pre Tour to Jordan:</b></h3>
+                                    <h5>May 2 - 6, 2019</h5>
+                                    <!--                                     <h5>$4,999 per person in double occupancy -->  <!--  &nbsp;&nbsp;|&nbsp;&nbsp; Private Room: $199 </h5>-->
+                                </div>
+                                <div class="user-content" style="margin-bottom: 20px;">
+                                    <ul>
+                                        <li>Centrally located Four Star Hotel: <small>(or similar)</small>
+                                            <ol><small>~ 1 night: <a href="http://www.206tours.com/info/jordan/hotels/amman-cham.htm">Cham Palace, Amman </a></small></ol>
+                                            <ol><small>~ 1 night: <a href="http://www.206tours.com/info/jordan/hotels/petra-taybet.htm">Petra Moon, </a>Petra, Jordan</small></ol>
+                                            <ol><small>~ 1 night: <a href="http://www.206tours.com/info/jordan/hotels/amman-cham.htm">Cham Palace, Amman </a></small></ol>
+                                        </li>
+                                        <li>Breakfast and Dinner daily</li>
+                                        <li>Transfers as per itinerary (on Group Basis)</li>
+
+                                        <li>Transportation by air-conditioned motor coach</li>
+                                        <li>Wireless headsets for additional sightseeing</li>
+                                        <li>Assistance of a professional local guide throughout</li>
+                                        <li>Sightseeing and admissions fees as per itinerary</li>
+                                        <li>Arrangements for Mass Daily</li>
+                                        <li>Tips to Restaurants</li>
+
+                                        <!-- <li><a class='link' href="http://www.206tours.com/documents/index.htm" target="_blank">Flight bag &amp; portfolio of all travel documents</a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="small-12 xlarge-8 columns">
+                                <div class="title">
+                                    <h5><br>Itinerary</h5>
+                                </div>
+                                <div class="user-content" style="margin-bottom: 20px;">
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>1</small></span>
+                                            <h5>Thu - May 2: Depart for Jordan</h5>
+                                        </div>
+                                        <p>Make your way to your local airport where you will board your overnight flight. Your meals are served on board.</p>
+                                    </div>
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>2</small></span>
+                                            <h5>Fri - May 3: Arrive in Amman </h5>
+                                        </div>
+                                        <p>Upon arrival in Amman, make your way to the baggage claim area and collect your luggage. Proceed to the arrival's hall, where you will be greeted by your tour guide and/or driver. . Transfer to the hotel in Amman for check-in. Enjoy dinner at the hotel before retiring for the evening. </p>
+                                    </div>
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>3</small></span>
+                                            <h5>Sat - May 4: Petra</h5>
+                                        </div>
+                                        <p>This morning, you will transfer to the “lost” city of Petra! This city is located amongst rugged desert canyons and mountains. Enjoy a walking tour of the former capital and trading center. Your first stop  will be a visit to the Siq, a mile-long gorge that contains a number of magnificent structures that are carved into the mountains. The walk will culminate with a visit to the Petra Museum. The Museum holds numerous artifacts from the Neolithic period of the Nabataen history. The museum also contains architecture from the Romans as well as, a Byzantine chapel. Spend this afternoon at your own leisure. Feel free to shop, relax or rest before dinner and overnight.</p>
+                                    </div>
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>4</small></span>
+                                            <h5>Sun - May 5: Petra – Kerak – Madaba – Mt. Nebo - Amman</h5>
+                                        </div>
+                                        <p>Today, after breakfast travel to the Castle of Kerak; the largest castle among mountain-top crusaders. Following this visit, transfer to the “City of Mosaics,” Madaba. While in this city, you will visit St. George’s Church that is home to a true treasure of Christianity. This Church houses the oldest map of the Holy Land which includes Israel, Palestine, and Southern Egypt. Later, visit Mt. Nebo, the most revered holy sites of Jordan. This mountain was mentioned in Deuteronomy 34, “Then Moses climbed Mount Nebo from the plains of Moab to the top of Pisgah…” While here, you will tour the Holy site of where Moses died and was buried. Following your visit to this Sacred place, return to Amman before dinner and an overnight.</p>
+                                    </div>
+                                    <div class="day-row user-content">
+                                        <div class="day-title"><span>Day<small>5</small></span>
+                                            <h5>Mon - May 6: Amman – Jerash – Tel Aviv  (Crossing the Jordanian Border into Israel)
+                                                <br>
+                                                <small class="theme-holy-land">*Crossing the Jordanian Border into Israel*</small></h5>
+
+                                        </div>
+                                        <p>Following breakfast, you will depart for Jerash, nestled in a quiet valley among the mountains of Gilead, is the grandeur of Imperial Rome being one of the largest and most well preserved sites of Roman architecture in the world outside of Italy. To this day, its paved and colonnaded streets, soaring hilltop temples, handsome theaters, spacious public squares and plazas, baths, fountains and city walls pierced by towers and gates remain in exceptional condition. Later today we will be crossing the Jordanian border into the Holy Land and continue toward the Mediterranean Coast to Tel Aviv for dinner and an overnight.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="small-12 xlarge-8 columns show-for-large">
+                                        <div class="title">
+                                            <h5>Would like to stop over in Europe?</h5>
+                                        </div>
+                                        <div class="user-content bottommargin-lg">
+                                            <p>
+                                                Let us know at time of registration, we will reschedule your airline reservations
+                                                pending availability at no additional fee (these options will be available to you when you register online). Let us know if
+                                                you need assistance with pre or post stay at hotel.
+                                                Simply Contact <strong>206 Tours:</strong>&nbsp; 800-206-TOUR (8687) &nbsp;or&nbsp; <a href="mailto:sales@206tours.com" class="link">sales@206tours.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 xlarge-8 columns">
+                                <div class="title">
+                                    <h5>Would like to stop over in Europe?</h5>
+                                </div>
+                                <div class="user-content bottommargin-lg">
+                                    <p>
+                                        Let us know at time of registration, we will reschedule your airline reservations
+                                        pending availability at no additional fee (these options will be available to you when you register online). Let us know if
+                                        you need assistance with pre or Post Tour at hotel.<br>
+                                        Simply Contact <strong>206 Tours:</strong>&nbsp; <a>800-206-TOUR (8687)</a>
+                                    </p>
+                                </div>
+                                <div class="b-btn"><a href="#dates" data-content="third" class="theme-btn has-tab-anchor silver hide-for-large">DATES & PRICES</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Options and upgrades for mobiles ends here -->
+
+                <!-- About your trip for starts here -->
+                <section id="info" data-accordion-item class="accordion-item">
+                    <a href="#" class="accordion-title"><h4>About
+                        your trip</h4></a>
+                    <div data-tab-content id="fourth" class="accordion-content">
+                        <div class="row hide-for-large noprint">
+                            <div class="small-12 columns">
+                                <!--Step 11-->
+                                <div class="b-map"><img src="http://www.206tours.com/assets/images/maps/blank-map.jpg" alt="pilgrimage map" style="height:1px;"></div>
+                                <div class="overview-slider">
+                                    <!--Step 9-->
+                                    <ul class="route-list">
+                                        <li data-slide-index="0">Tel Aviv</li>
+                                        <li data-slide-index="1">Caesarea</li>
+                                        <li data-slide-index="2">Nazareth</li>
+                                        <li data-slide-index="3">Cana</li>
+                                        <li data-slide-index="4">Tiberias</li>
+                                        <li data-slide-index="5">Sea of Galilee</li>
+                                        <li data-slide-index="6">Jordan River</li>
+                                        <li data-slide-index="7">Mt. Tabor</li>
+                                        <li data-slide-index="8">Jerusalem</li>
+                                        <li data-slide-index="9">Gethsemane</li>
+                                        <li data-slide-index="10">Ein Karem</li>
+                                        <li data-slide-index="11">Bethlehem</li>
+                                        <li data-slide-index="12">Qumran</li>
+                                        <li data-slide-index="13">Dead Sea</li>
+                                        <li data-slide-index="14">Mt. Zion</li>
+                                        <li data-slide-index="15">Holy Sepulchre</li>
+                                    </ul>
+                                    <div class="slider-for">
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/tel-aviv-pilgrimage1.jpg" title="Holy Land Jerusalem Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/caesarea-pilgrimage1.jpg" title="Holy Sepulchre Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/nazareth-pilgrimage1.jpg" title="Church of All Nations Catholic Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/cana-pilgrimage1.jpg" title="Church of Nativity Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/tiberias-pilgrimage1.jpg" title="Mount of Beatitudes Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/sea-of-galilee-pilgrimage1.jpg" title="Mount of Beatitudes Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/jordan-river-baptisim-pilgrimage-holyland1.jpg" title="Galilee Baptisim Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-the-transfiguration-mt-tabor-israel-pilgrimage1.jpg" title="Rock of Agony, Church of All Nations Pilgrimage"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/western-wall-wailing-wall-jerusalem-holyland-pilgrimage1.jpg" title="Pope Francis Holy Land Western Wall"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/gethsemane-pilgrimage1.jpg" title="Monastery of St. George, Israel"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/ein-karem-pilgrimage1.jpg" title="The Dead Sea, Israel Pilgrimage" ></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/church-of-nativity-bethlehem-israel-pilgrimage1.jpg" title="Church of the Holy Sepulchre, Jerusalem"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/qumran-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/dead-sea-holyland-pilgrimage1,jpg.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/mt-zion-pilgrimage1.jpg" title="Holy Land Pilgrimage Group"></div>
+                                        <div><img src="http://www.206tours.com/assets/images/tour-slide/holyland/holyland-catholic-pilgrimage-church-of-holy-sepulchre-jerusalem-israel2.jpg" title="Holy Land Pilgrimage Group"></div>                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 large-8 columns">
+                                <div class="user-content">
+                                    <!--Step 10-->
+                                    <h5>About The Holy Land - In the footsteps of Jesus:</h5>
+                                    <p>If you desire to draw closer to Jesus of Nazareth, come, as we follow in His
+                                        footsteps. Each day of your pilgrimage you will have time to renew and affirm
+                                        your faith; to pray and reflect. The Scriptures will come alive as you visit Our
+                                        Lord's homeland. You will be inspired by the natural beauty of the landscape, in
+                                        addition to its rich historical heritage It is an encounter that has changed the
+                                        lives of many pilgrims, an act of faith and prayer. Pilgrims have been traveling
+                                        to the Holy Land for hundreds of years, and as part of your pilgrimage, we
+                                        include many of the rich traditions that have evolved over time. The maxim at
+                                        the entrance to the Church of the Nativity says: "We are hoping that: If you
+                                        enter here as a tourist, you would exit as a pilgrim. If you enter here as a
+                                        pilgrim, you would exit as a holier one." We pray that same will occur when you
+                                        join 206 Tours pilgrimage.</p>
+                                    <p><a href="http://www.206tours.com/terms" class="link" target="_blank">Terms &
+                                        Conditions</a></p></div>
+                                <div class="column-option-wrap hide-for-large noprint">
+                                    <div class="option-item column-option clearfix">
+                                        <div class="option-item_icon">
+                                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"                               viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">                          <g>                              <g>                                  <path d="M57,17.5h-9c-0.8,0-1.5,0.3-2,0.7c-0.5-0.5-1.2-0.7-2-0.7H34v2h10c0.6,0,1,0.4,1,1v15H2v-15c0-0.6,0.4-1,1-1h4v-2H3                                      c-1.7,0-3,1.3-3,3v28c0,1.7,1.3,3,3,3h41c0.8,0,1.5-0.3,2-0.7c0.5,0.5,1.2,0.7,2,0.7h9c1.7,0,3-1.3,3-3v-28                                      C60,18.8,58.7,17.5,57,17.5z M44,49.5H3c-0.6,0-1-0.4-1-1v-11h43v11C45,49.1,44.6,49.5,44,49.5z M58,48.5c0,0.6-0.4,1-1,1h-9                                      c-0.6,0-1-0.4-1-1v-28c0-0.6,0.4-1,1-1h4v14h2v-14h3c0.6,0,1,0.4,1,1V48.5z"></path>                                  <rect x="6" y="40.5" width="7" height="2"></rect>                                  <rect x="6" y="44.5" width="17" height="2"></rect>                                  <path d="M14.5,15.5c1.9,0,3.5-1.6,3.5-3.5s-1.6-3.5-3.5-3.5S11,10.1,11,12S12.6,15.5,14.5,15.5z M14.5,10.5c0.8,0,1.5,0.7,1.5,1.5                                      s-0.7,1.5-1.5,1.5S13,12.8,13,12S13.7,10.5,14.5,10.5z"></path>                                  <path d="M24,22c0,1.9,1.6,3.5,3.5,3.5S31,23.9,31,22s-1.6-3.5-3.5-3.5S24,20.1,24,22z M29,22c0,0.8-0.7,1.5-1.5,1.5S26,22.8,26,22                                      s0.7-1.5,1.5-1.5S29,21.2,29,22z"></path>                                  <rect x="9.693" y="16.513" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.2346 19.9735)" width="22.6" height="2"></rect>                                  <rect x="7" y="30.5" width="9" height="2"></rect>                                  <rect x="19" y="30.5" width="5" height="2"></rect>                                  <rect x="27" y="30.5" width="13" height="2"></rect>                                  <rect x="52" y="36.5" width="2" height="4"></rect>                              </g>                          </g>                          </svg>
+                                        </div>
+                                        <div class="option-item_descr">
+                                            <h5>Know Before You Go</h5>
+                                            <p>We promise to do all within our power to assist you with any questions or concerns you may have.
+                                                Please feel free to contact us, please note should any problems arise during
+                                                your trip you should first contact your local emergency contact in your
+                                                destination country or the 206 Tours.</p>
+                                            <!--Step 15-->
+                                            <a href="http://www.206tours.com/info/holyland/index.htm" class="link">Read more</a></div>
+                                    </div>
+                                    <br>
+                                    <div class="column-option-wrap hide-for-large noprint">
+                                        <div class="option-item column-option clearfix">
+                                            <div class="option-item_icon">
+                                                <a href="http://www.206tours.com/terms"><img src="http://www.206tours.com/assets/images/kbyg/pilgrimage-terms-conditions1.jpg"></a>
+                                            </div>
+                                            <div class="option-item_descr">
+                                                <h5>Terms & Conditions</h5>
+                                                <h4>1-800-206-Tour (8687)&nbsp;&nbsp; | &nbsp;&nbsp;<a href="mailto:sales@206tours.com" class="link">sales@206tours.com</a></h4>
+                                                <a href="http://www.206tours.com/terms" class="link">Click Here for More Information</a>
+                                                <!--Step 15-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="small-12 large-4 columns noprint show-for-large">
+                                <div class="row">
+                                    <!--                                  <div class="small-12 medium-6 large-12 columns">                                    <div class="popup-gallery"><a href="http://www.206tours.com/images/gallery1.jpg" title="Image description">                                        <img src="http://www.206tours.com/register/assets/images/gallery1.jpg" alt="pic"></a><a href="http://www.206tours.com/images/gallery2.jpg" title="Image description"><img src="http://www.206tours.com/register/assets/images/gallery2.jpg" alt="pic"></a><a href="http://www.206tours.com/images/gallery3.jpg" title="Image description"><img src="http://www.206tours.com/register/assets/images/gallery3.jpg" alt="pic"></a><a href="http://www.206tours.com/images/gallery4.jpg" title="Image description"><img src="http://www.206tours.com/register/assets/images/gallery4.jpg" alt="pic"></a><a href="http://www.206tours.com/images/gallery5.jpg" title="Image description"><img src="http://www.206tours.com/register/assets/images/gallery5.jpg" alt="pic"></a><span data-href="#full-gallery2" class="open-gallery-link"><span>All <br> photos</span><img src="http://www.206tours.com/register/assets/images/gallery2.jpg" alt="pic"></span></div>                                    <div id="full-gallery2" class="mfp-hide">                                      <div class="slide">                                          <img src="http://www.206tours.com/register/assets/images/gallery5.jpg" alt="Image description"></div>                                      <div class="slide">                                          <img src="http://www.206tours.com/register/assets/images/gallery3.jpg" alt="Image description"></div>                                      <div class="slide">                                          <img src="http://www.206tours.com/register/assets/images/gallery4.jpg" alt="Image description"></div>                                      <div class="slide">                                          <img src="http://www.206tours.com/register/assets/images/gallery1.jpg" alt="Image description"></div>                                      <div class="slide">                                          <img src="http://www.206tours.com/register/assets/images/gallery2.jpg" alt="Image description"></div>                                    </div>                                  </div>                                  -->
+                                    <!--Step 13-->
+                                    <div class="small-12 medium-6 large-12 columns"><a href="http://www.206tours.com/info/israel" target="_blank" class="info-link">
+                                        <div class="info-link_img">
+                                            <img src="http://www.206tours.com/assets/images/kbyg/catholic-tours-know-before-you-go-2017.png" alt="Pilgriamge Information"></div>
+                                        <div class="info-link_descr">
+                                            <p style="font-size: 32px; text-align:left">Israel</p>
+                                        </div></a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line show-for-large"></div>
+                        <div class="row show-for-large noprint">
+                            <div class="small-12 columns">
+                                <ul class="tab-list four gray flex-list">
+                                    <li><a href="#includes"><strong>What's Included</strong></a></li>
+                                    <li><a href="#daybyday"><strong>Day-by-Day Itinerary</strong></a></li>
+                                    <li><a href="#dates"><strong>Dates & Prices</strong></a></li>
+                                    <li><a href="#info"><strong>Destination Information</strong></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row noprint">
+                            <div class="small-12 columns text-center bottom-submit"><a href="#" data-content="third"
+                                                                                       class="theme-btn blue has-tab-anchor">DATES
+                                & PRICES</a></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About your trip for ends here -->
+
+                <!-- Contact us accordion mobile section starts here -->
+                <section id="contact" data-accordion-item class="accordion-item hide-for-large noprint">
+                    <a href="#" class="accordion-title"><h4>Contact Us</h4></a>
+                    <div data-tab-content id="fifth" class="accordion-content">
+                        <div class="row hide-for-large noprint bottommargin">
+                            <div class="b-info_inner small-12 columns ">
+                                <div class="title">
+                                    <h5>Any questions? &nbsp;Contact Us:</h5>
+                                </div>
+                            </div>
+
+
+
+                            <div class="small-5 medium-3 small-centered columns">
+                                <img src="http://www.206tours.com/aboutus/images/Patrick10-25a.jpg" style="border:thin solid #ffffff;" alt="Patrick" height="203" border="1">
+                            </div>
+                            <div class="small-6 medium-3 small-centered columns " style="padding-left: 0">
+                                <ul style="list-style: none; margin-left: 0;">
+                                    <li><h4>Patrick</h4></li>
+                                    <li><h5>Business Manager</h5></li>
+                                    <li>1-800-206-Tour (8687)</li>
+                                    <li><a class="link" href="mailto:Patrick@206tours.com">Patrick@206tours.com</a></li>
+                                    <li> <a href="http://www.onlinechatcenters.com/chat/29129-66811?SESSID=buveaotoa7iaip6mrtnbm6fvd6&amp;ref=http%3A%2F%2Fwww.pilgrimages.com<? echo $_SERVER['PHP_SELF']; ?>"
+                                            onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=800, height=450');return false;"
+                                            class="link">Live chat</a>
+                                </ul>
+                            </div>
+
+                            <!-- <div class="small-5 medium-3 small-centered columns">
+                                <img src="http://www.206tours.com/aboutus/images/katherine.jpg" style="border:thin solid #ffffff;" alt="Katherine" height="203" border="1">
+                            </div>
+                            <div class="small-6 medium-3 small-centered columns " style="padding-left: 0">
+                                <ul style="list-style: none; margin-left: 0;">
+                                    <li><h4>Katherine</h4></li>
+                                    <li><h5>Account Manager</h5></li>
+                                    <li>1-800-206-Tour (8687)</li>
+                                    <li><a class="link" href="mailto:katherine@206tours.com">Katherine@206tours.com</a></li>
+                                    <li> <a href="http://www.onlinechatcenters.com/chat/29129-66811?SESSID=buveaotoa7iaip6mrtnbm6fvd6&amp;ref=http%3A%2F%2Fwww.pilgrimages.com<? echo $_SERVER['PHP_SELF']; ?>"
+                                            onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=800, height=450');return false;"
+                                            class="link">Live chat</a>
+                                </ul>
+                            </div> -->
+
+                        </div>
+                        <div class="row noprint">
+                            <div class="small-12 columns text-center bottom-submit"><a href="#" data-content="third" class="theme-btn blue has-tab-anchor">DATES & PRICES</a></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Contact us accordion mobile section ends here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer starts here -->
+    <? include("/home/tours206/www/register/components/footer.htm");?>
+    <!-- Footer ends here -->
+</div>
+</body>
+</html>
